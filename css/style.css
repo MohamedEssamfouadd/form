@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color: blueviolet;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 50px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 30px;
+    
+}
+.label_one{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    display: block;
+}
+.label_two{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    display: block;
+}
+.label_three{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    display: block;
+}
+.label_four{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    display: block;
+}
+#prodect_name{
+    width: 500px;
+    height: 35px;
+}
+#prodect_age{
+    width: 500px;
+    height: 35px;
+}
+#prodect_price{
+    width: 500px;
+    height: 35px;
+}
+#prodect_phone{
+    width: 500px;
+    height: 35px;
+}
+#select_one{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    width: 150px;
+    height: 50px;
+    align-items: center;
+    color: white;
+    text-transform: capitalize;
+    
+    
+}
+.btnn{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    width: 150px;
+    height: 50px;
+    align-items: center;
+    color: white;
+    text-transform: capitalize;
+  
+    
+    
+}
+table{
+    margin: auto;
+    margin-top: 50px;
+   
+   
+    th{
+        padding-left: 70px;
+        font-size: 1.5rem;
+        text-transform: capitalize;
+        margin-bottom: 2rem;
+        
+    }
+    td{
+        padding-left: 70px;
+        font-size: 1.5rem;
+        margin-bottom: 3rem;
+         
+       
+    }
+   
+  
+}
+.bttn_one{
+    font-size: 2rem;
+    color: white;
+    background-color: transparent;
+}
+.bttn_two{
+    font-size: 1.5rem;
+    color: white;
+    background-color: red;
+    padding: 5px 10px;
+}
+.active{
+    display: none;
+}
